@@ -1,0 +1,73 @@
+.box {
+    text-align: "center";
+}
+
+body{
+background:url("tree.jpg") no-repeat;
+background-attachment: fixed;
+}
+
+.image{
+width: 200px;
+height: 200px;
+border-radius: 50%;
+margin: 0 auto;
+border: 20px double rgba(228, 227, 227, 0.945);
+}
+.container {
+width: 80%;
+margin: 0 auto;
+}
+.box {
+text-align: "center";
+}
+
+.badan {
+    background: rgb(218, 226, 225);
+}
+
+.bingkai{
+background: #DDD;
+width: 900px;
+margin: 20px auto;
+border : rgb(255, 248, 219) solid 1px;
+}
+
+/*bagian header*/
+.bingkai .header{
+background: rgb(123, 169, 239);
+/* height: 50px; */
+padding: 2px 5px;
+}
+
+/*akhir header*/
+
+/*bagian menu*/
+.bingkai .menu{
+background: #ffeecf;
+width:100%;
+height:40px;
+}
+
+.bingkai .menu ul{
+padding: 0;
+margin: 0;
+
+}
+
+.bingkai .menu ul li{
+float: left;
+list-style: none;
+padding: 10px;
+}
+/*akhir menu*/
+
+.clear{
+clear: both;
+}
+
+
+.bingkai .footer{
+width: 100%;
+padding: 10px;
+}
